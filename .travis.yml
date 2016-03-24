@@ -1,0 +1,6 @@
+language: c
+sudo: required
+services:
+  - docker
+script:
+  - docker run -it --volume "$(pwd):/src" quay.io/kelproject/gb-build
