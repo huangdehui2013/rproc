@@ -1,0 +1,23 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/eldarion-gondor/piper",
+			"repository": "https://github.com/eldarion-gondor/piper",
+			"revision": "18d30ae04448dde1f950359433a2886736a7c915",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/gorilla/websocket",
+			"repository": "https://github.com/gorilla/websocket",
+			"revision": "e2e3d8414d0fbae04004f151979f4e27c6747fe7",
+			"branch": "master"
+		},
+		{
+			"importpath": "github.com/kr/pty",
+			"repository": "https://github.com/kr/pty",
+			"revision": "f7ee69f31298ecbe5d2b349c711e2547a617d398",
+			"branch": "master"
+		}
+	]
+}
