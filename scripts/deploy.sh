@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ev
+set -ex
 
 if [ -n "$TRAVIS_TAG" ]; then
     BUILD_TAG="$TRAVIS_TAG"
