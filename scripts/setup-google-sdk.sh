@@ -4,6 +4,7 @@ set -ev
 pip install pyopenssl
 
 if [ ! -f "${HOME}/google-cloud-sdk/.installed" ]; then
+    rm -rf "${HOME}/google-cloud-sdk"
     curl -s https://sdk.cloud.google.com | bash
 else
     echo "Google Cloud SDK already installed; skipping"
