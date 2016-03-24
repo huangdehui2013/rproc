@@ -7,4 +7,4 @@ else
     BUILD_TAG="git-${TRAVIS_COMMIT:0:8}"
 fi
 
-gsutil -D cp bin/rproc gs://kel-tester/rproc-linux-amd64-$BUILD_TAG
+gsutil cp bin/rproc gs://kel-tester/rproc-linux-amd64-$BUILD_TAG

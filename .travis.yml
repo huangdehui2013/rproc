@@ -2,6 +2,9 @@ language: python
 sudo: required
 services:
   - docker
+cache:
+  directories:
+    - "$HOME/google-cloud-sdk/"
 env:
   - PATH=${HOME}/google-cloud-sdk/bin:${PATH} CLOUDSDK_PYTHON_SITEPACKAGES=1 CLOUDSDK_CORE_DISABLE_PROMPTS=1
 before_install:
