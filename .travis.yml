@@ -2,6 +2,16 @@ language: c
 sudo: required
 services:
   - docker
+cache:
+  directories:
+    - "$HOME/google-cloud-sdk/"
+env:
+  - PATH=$PATH:${HOME}/google-cloud-sdk/bin CLOUDSDK_CORE_DISABLE_PROMPTS=1
+before_install:
+  - >
+    if [ ! -d ${HOME}/google-cloud-sdk ]; then
+      curl https://sdk.cloud.google.com | bash;
+    fi
 before_script:
   - docker pull quay.io/kelproject/gb-build
 script:
