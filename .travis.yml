@@ -21,3 +21,5 @@ before_script:
   - docker pull quay.io/kelproject/gb-build
 script:
   - docker run -i --volume "$(pwd):/src" quay.io/kelproject/gb-build
+after_success:
+  - bash deploy.sh
