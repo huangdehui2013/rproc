@@ -1,0 +1,10 @@
+hash: 8aaf638617f2750096074d87bf2a442cb7ec5314f552006bae94bf502c380284
+updated: 2016-04-01T16:38:44.771888851-06:00
+imports:
+- name: github.com/eldarion-gondor/piper
+  version: 18d30ae04448dde1f950359433a2886736a7c915
+- name: github.com/gorilla/websocket
+  version: e2e3d8414d0fbae04004f151979f4e27c6747fe7
+- name: github.com/kr/pty
+  version: f7ee69f31298ecbe5d2b349c711e2547a617d398
+devImports: []
