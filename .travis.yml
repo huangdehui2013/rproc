@@ -11,6 +11,7 @@ before_install:
   - gcloud auth activate-service-account --key-file gcp-travisci.json
 install:
   - gcloud config set project project-kel
+  - ./scripts/deps.sh
 script:
   - ./scripts/build.sh
 after_success:
