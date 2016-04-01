@@ -1,5 +1,5 @@
 #!/bin/bash
-set -ex
+set -ev
 
 here=$(cd "$(dirname "${BASH_SOURCE}")"; pwd -P)
 . $here/_env.sh
